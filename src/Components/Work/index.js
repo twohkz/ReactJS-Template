@@ -1,12 +1,48 @@
-import React from 'react';
+import React , {Component} from 'react';
+//import './style.css'
+import {WorkSection,WorkTitle,Span,WorkPart,Icon,PartTitle,Line,PartDesc} from './style.js'
+import axios from 'axios';
 
 
-const  Work = () => {
+class  Work extends Component {
+
+      state = {
+        works : []
+      }
+
+      componentDidMount () {
+        axios.get('./js/data.json').then( res => { this.setState ({works:res.data.works }) })
+        //console.log(this.state.works)
+      }
+
+      render() {
+        const {works} =  this.state ;
+
+        const worksList = works.map ( (workItem) => {
+              return (
+                      <WorkPart first={workItem.id}>
+                        <Icon className={workItem.icon_name}></Icon>
+                        <PartTitle>{workItem.title}</PartTitle>
+                        <Line/>
+                        <PartDesc>
+                            {workItem.body}
+                        </PartDesc>
+                      </WorkPart>
+                    )
+
+          }
+
+        )
       return (
-        <div >
-          Work
-        </div>
+        <WorkSection>
+            <div className="container">
+                <WorkTitle><Span>My</Span> Work</WorkTitle>
+                    {worksList}
+                
+            </div>
+        </WorkSection>
       );
+    }
     }
   
 
