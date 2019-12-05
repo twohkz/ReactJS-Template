@@ -30,7 +30,7 @@
         },
         {
             "id" : 2 ,
-            "image" : "/images/Portfolio/portfolio-img2.jpg"
+            "image" : "https://raw.githubusercontent.com/twohkz/ReactJS-Template/master/public/images/Portfolio/portfolio-img2.jpg"
         },
         {
             "id" : 3 ,
