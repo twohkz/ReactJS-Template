@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/twohkz/ReactJS-Template/static/css/main.c4dedb2c.chunk.css",
+    "main.js": "/twohkz/ReactJS-Template/static/js/main.1c7551f7.chunk.js",
+    "main.js.map": "/twohkz/ReactJS-Template/static/js/main.1c7551f7.chunk.js.map",
+    "runtime-main.js": "/twohkz/ReactJS-Template/static/js/runtime-main.216db005.js",
+    "runtime-main.js.map": "/twohkz/ReactJS-Template/static/js/runtime-main.216db005.js.map",
+    "static/js/2.0e134dd0.chunk.js": "/twohkz/ReactJS-Template/static/js/2.0e134dd0.chunk.js",
+    "static/js/2.0e134dd0.chunk.js.map": "/twohkz/ReactJS-Template/static/js/2.0e134dd0.chunk.js.map",
+    "index.html": "/twohkz/ReactJS-Template/index.html",
+    "precache-manifest.2c314a5321acd6f4699e16c9266d8f93.js": "/twohkz/ReactJS-Template/precache-manifest.2c314a5321acd6f4699e16c9266d8f93.js",
+    "service-worker.js": "/twohkz/ReactJS-Template/service-worker.js",
+    "static/css/main.c4dedb2c.chunk.css.map": "/twohkz/ReactJS-Template/static/css/main.c4dedb2c.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.216db005.js",
+    "static/js/2.0e134dd0.chunk.js",
+    "static/css/main.c4dedb2c.chunk.css",
+    "static/js/main.1c7551f7.chunk.js"
+  ]
+}
