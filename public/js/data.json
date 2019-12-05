@@ -62,7 +62,7 @@
     "social" : [
         {
             "id" : 1,
-            "icon" : "icon fa fa-facbook fa-lg",
+            "icon" : "icon fa fa-facebook fa-lg",
             "title" : "Follow Me on",
             "body" : "Social Facebook"
         },
