@@ -13,7 +13,7 @@ const Portfolio = () => {
       const PortfolioImages = images.map ( (ImageItem) => {
           return (
                     <ImageWarpper key={ImageItem.id}>
-                    <Image src={ImageItem.image} alt="" />
+                    <Image src={require({ImageItem.image}) alt="" />
                         <Overlay>
                             <OverlaySpan>
                                 Show Image
