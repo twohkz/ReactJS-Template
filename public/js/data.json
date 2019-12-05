@@ -26,7 +26,7 @@
     "portfolio" : [
         {
             "id" : 1 ,
-            "image" : "https://github.com/twohkz/ReactJS-Template/blob/master/public/images/Portfolio/portfolio-img1.jpg?raw=true"
+            "image" : "https://github.com/twohkz/ReactJS-Template/public/images/Portfolio/portfolio-img1.jpg?raw=true"
         },
         {
             "id" : 2 ,
