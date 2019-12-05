@@ -8,7 +8,7 @@ import Navbar from './Components/Navbar/index.js';
 class  App extends Component {
   render(){
       return (
-        <BrowserRouter>
+        <BrowserRouter basename="/ReactJS-Template" >
           <Navbar />
           
           <Route exact path='/' component={Index} />
